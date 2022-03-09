@@ -1,0 +1,39 @@
+body{
+    display:flex;
+    justify-content: center;
+    text-align: center;
+}
+
+img{
+    height: 100px;
+}
+
+.left{
+    width: 600px;
+    justify-content:left;
+    background-color: rgba(204, 202, 202, 0.335);  
+}
+
+
+.right {
+    width: 600px;
+    justify-content: right;
+    background-color: rgba(204, 202, 202, 0.335);
+}
+
+ul {
+    text-align: center;
+}
+    
+/* li {
+    display: inline-block;
+} */
+
+.links {
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.aboutMe{
+    margin: 20px;
+}
